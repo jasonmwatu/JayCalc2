@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -255,6 +256,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void delPad(View view) {
         if (checkOperand < 1) { //if checkOperand is less than 1 i.e. 0, there's no number input
+            Toast.makeText(this, "not impelemented!", Toast.LENGTH_SHORT).show();
             return;
         }
         displayScreen();
